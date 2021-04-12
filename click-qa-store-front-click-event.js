@@ -133,7 +133,7 @@ function productData(name, id) {
   
   
     console.log(params);
-  const url = "apps/s3Details";
+  const url = "/apps/s3Details";
     const http = new XMLHttpRequest()
     	http.open('POST', url )
         http.setRequestHeader('Content-type', 'application/json');
@@ -160,7 +160,7 @@ function sendData(name, link) {
   
   
     console.log(params);
-  const url = "apps/s3Details";
+  const url = "/apps/s3Details";
     const http = new XMLHttpRequest()
     	http.open('POST', url )
         http.setRequestHeader('Content-type', 'application/json');
